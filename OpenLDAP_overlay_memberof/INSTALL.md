@@ -66,6 +66,8 @@ The virtual memberOf attribute is not applied retroactively. We need to remove a
 Execute the python script supplied:
 
 ```bash
+# Install python-ldap
+zypper in python-ldap
 cd ~
 git clone https://github.com/dla-marbach/dla_gists
 cd dla_gists/OpenLDAP_overlay_memberof
